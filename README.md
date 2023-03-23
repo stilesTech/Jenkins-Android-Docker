@@ -37,7 +37,7 @@ Instead, you can use `buildImage.sh`
 ### docker
 ```docker run -dit -p 8080:8080 --dns 8.8.8.8 -p 50000:50000 -v /data/jenkins-android-docker:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -v /etc/localtime:/etc/localtime --name jenkins stilesboy/jenkins-android-java11:v1.0```
 
-  - Latest version need to replace real version. You can find tag in [Release Page](https://github.com/WindSekirun/Jenkins-Android-Docker/releases)
+  - Latest version need to replace real version. You can find tag in [Release Page](https://github.com/stilesTech/Jenkins-Android-Docker/releases)
  - Before run image, you should provide permission to access /data/jenkins-android-docker with ```sudo chown -R 1000:1000 /data/jenkins-android-docker```   statement.
 
 
